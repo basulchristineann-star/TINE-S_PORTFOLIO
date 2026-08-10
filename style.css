@@ -129,3 +129,74 @@ footer{padding:25px 5%;display:flex;justify-content:space-between;font-size:.7re
 
 }
 }
+/* =========================
+   CERTIFICATES
+========================= */
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 850px;
+  margin: 45px auto 0;
+}
+
+.certificate {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-image {
+  width: 100%;
+  background: var(--soft);
+  overflow: hidden;
+}
+
+.certificate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificate-info {
+  padding: 25px;
+}
+
+.certificate-info .label {
+  color: var(--purple);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.certificate-info h3 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+
+.certificate-info > p:not(.label) {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+}
+
+.certificate-button {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 10px 17px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.certificate-button:hover {
+  opacity: 0.8;
+}
