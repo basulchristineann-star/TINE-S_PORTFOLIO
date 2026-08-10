@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website" />
+  <title>Your Name | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#home">YN<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-text reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Your <span>Name</span></h1>
+        <h2>Information Systems Student</h2>
+        <p class="hero-copy">
+          I’m passionate about technology, system development, and creating useful
+          digital experiences. Welcome to my portfolio.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="profile-ring">
+          <img src="assets/profile-placeholder.svg" alt="Profile placeholder">
+        </div>
+        <p>Open to learning & creating</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>A little about me</h2>
+        </div>
+        <div class="section-content reveal">
+          <p>
+            I am an Information Systems student interested in technology,
+            web development, databases, UI/UX, and information systems.
+            I enjoy turning ideas into practical digital solutions.
+          </p>
+          <p>
+            This section is editable. Replace this text with your own story,
+            interests, goals, and anything you want visitors to know about you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>My educational journey</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="dot"></div>
+            <div>
+              <span class="date">2026 – Present</span>
+              <h3>Bachelor of Science in Information Systems</h3>
+              <p>Your University / School</p>
+              <small>Replace this with your school, campus, and relevant details.</small>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="dot"></div>
+            <div>
+              <span class="date">Previous Years</span>
+              <h3>Senior High School</h3>
+              <p>Your Senior High School</p>
+              <small>Add your strand, awards, or other relevant information.</small>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">SKILLS</p>
+          <h2>What I can do</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><span>01</span><h3>Web Development</h3><p>HTML, CSS, JavaScript and responsive layouts.</p></div>
+          <div class="skill-card reveal"><span>02</span><h3>Database</h3><p>Database design, ERD, SQL and data organization.</p></div>
+          <div class="skill-card reveal"><span>03</span><h3>UI / UX</h3><p>Wireframes, layouts, usability and visual design.</p></div>
+          <div class="skill-card reveal"><span>04</span><h3>Information Systems</h3><p>System analysis, documentation and project planning.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>Things I've worked on</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image">PROJECT 01</div>
+            <div class="project-body">
+              <span>Information Systems</span>
+              <h3>Restaurant Management System</h3>
+              <p>A sample system project featuring database design, entities, and system workflows.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>Database</b></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">PROJECT 02</div>
+            <div class="project-body">
+              <span>Research</span>
+              <h3>Information Systems Research</h3>
+              <p>Add a description of your research project, objectives, methodology, and result.</p>
+              <div class="tags"><b>Research</b><b>Data</b><b>IS</b></div>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image">PROJECT 03</div>
+            <div class="project-body">
+              <span>Web Design</span>
+              <h3>Personal Website</h3>
+              <p>A responsive website designed to present information in a simple and engaging way.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">CERTIFICATES</p>
+          <h2>My certifications</h2>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card reveal">
+            <div class="cert-icon">✦</div>
+            <div><h3>Certificate Name</h3><p>Issuing organization · 2026</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <div class="cert-icon">✦</div>
+            <div><h3>Certificate Name</h3><p>Issuing organization · 2026</p></div>
+          </article>
+          <article class="cert-card reveal">
+            <div class="cert-icon">✦</div>
+            <div><h3>Certificate Name</h3><p>Issuing organization · 2026</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box reveal">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Let's connect.</h2>
+          <p>Have a project, question, or opportunity? Send me a message.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your@email.com">your@email.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub →</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
