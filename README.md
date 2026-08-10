@@ -1,52 +1,22 @@
-# Editable Portfolio — Vercel Ready
+# TINE Portfolio — Purple Theme
+Vercel-ready, mobile responsive, and designed to be easy to edit from an iPhone.
 
-This is a simple, responsive portfolio made with plain HTML, CSS, and JavaScript.
-It does not require a build step, so it is very easy to deploy on Vercel.
+## What to edit
+Open `index.html` in GitHub and search for `EDIT`.
+Change only the text/content around those comments.
 
-## Files
+- Name and title
+- Introduction
+- About Me
+- Education
+- Skills
+- Projects
+- Certificates
+- Email and social links
 
-- `index.html` — all portfolio content
-- `style.css` — design and responsive layout
-- `script.js` — dark mode, mobile menu, animations
-- `assets/profile-placeholder.svg` — temporary profile image
+## Profile photo
+Upload your photo to `assets/profile.jpg`, then the existing image tag will display it.
+The current version uses a placeholder if the photo is missing.
 
-## How to edit
-
-Open `index.html` and replace:
-- Your Name
-- school/university
-- About Me text
-- skills
-- projects
-- certificates
-- email
-- GitHub / LinkedIn / Facebook links
-
-### Replace the profile photo
-
-Put your photo inside `assets/`, for example:
-
-`assets/profile.jpg`
-
-Then change this in `index.html`:
-
-`src="assets/profile-placeholder.svg"`
-
-to:
-
-`src="assets/profile.jpg"`
-
-## Deploy to Vercel
-
-1. Create a GitHub repository.
-2. Upload all files from this folder.
-3. Open Vercel and choose Add New → Project.
-4. Import the GitHub repository.
-5. For a plain HTML site, no framework is required.
-6. Click Deploy.
-
-Your site will receive a `.vercel.app` address.
-
-## Important
-
-You can edit the files later, push the changes to GitHub, and Vercel will automatically redeploy the updated site.
+## Deploy
+This is a plain HTML/CSS/JS site. Import the GitHub repository into Vercel and deploy with the default settings.
